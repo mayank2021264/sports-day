@@ -1,7 +1,13 @@
 /*
-    This is a JavaScript code for a Sports Day event. It simulates various sports events such as 100m race, long jump, and high jump, and keeps track of the scores for each team (red, blue, yellow, green). The code uses Promises to handle asynchronous events and updates the scores based on the performance of each team in the events. Finally, it announces the winners and their scores in the award ceremony. The results are displayed both in the console and on the webpage.
+    This is a JavaScript code for a Sports Day event. It simulates various sports events such as 100m race, long jump,
+    and high jump, and keeps track of the scores for each team (red, blue, yellow, green). The code uses Promises to handle
+    asynchronous events and updates the scores based on the performance of each team in the events. Finally, it announces
+    the winners and their scores in the award ceremony. The results are displayed both in the console and on the webpage.
 
-    The race100m starts after the opening ceremony with timeout of 3 seconds, then the long jump starts after the race100m with timeout of 2 seconds, then the high jump starts after the long jump with timeout of 2 seconds, and finally the award ceremony starts after the high jump with timeout of 2 seconds. The scores are updated based on the performance of each team in each event, and the final top 3 teams are announced in the award ceremony.
+    The race100m starts after the opening ceremony with timeout of 3 seconds, then the long jump starts after the race100m
+    with timeout of 2 seconds, then the high jump starts after the long jump with timeout of 2 seconds, and finally the award
+    ceremony starts after the high jump with timeout of 2 seconds. The scores are updated based on the performance of each team
+    in each event, and the final top 3 teams are announced in the award ceremony.
 */
 
 let output = document.getElementById("output");
